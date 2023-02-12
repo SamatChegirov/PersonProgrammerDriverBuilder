@@ -5,7 +5,7 @@ import person.Programmer;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println(" ");
         Programmer programmer = new Programmer("Hacker", 0);
         Person.setAge(19);
         System.out.println(programmer + "\n" + programmer.working() + "\nAge: " + Person.getAge(0));
